@@ -1,6 +1,6 @@
-# Basic GIT Commands
+## Basic GIT Commands
 
-## Creating a new working copy
+### Creating a new working copy
 
 ```
 git clone <https-path-to-repository> [<folder-name>]
@@ -8,7 +8,7 @@ git clone <https-path-to-repository> [<folder-name>]
 
 folder-name is optional and defaults to current repository name
 
-## Pulling latest content from master branch
+### Pulling latest content from master branch
 
 While inside a working copy, do the following:
 
@@ -18,33 +18,33 @@ git pull
 
 Note: All commands default to origin master branch unless specified otherwise
 
-## Checking status of commits
+### Checking status of commits
 
 ```
 git status
 ```
 
-## Adding new changes for commit into master branch
+### Adding new changes for commit into master branch
 
 ```
 git add <filename>
 ```
 
-## Commit new changes to master branch
+### Commit new changes to master branch
 
 ```
 git commit -m "yourcommentshere"
 ```
 
-## Push new changes to master branch
+### Push new changes to master branch
 
 ```
 git push
 ```
 
-# Basic Branch Commands
+## Basic Branch Commands
 
-## Creating a new branch
+### Creating a new branch
 
 ```
 git checkout -b <new-branch-name> [<base-branch-name>]
@@ -52,7 +52,7 @@ git checkout -b <new-branch-name> [<base-branch-name>]
 
 base-branch-name is optional and defaults to master
 
-## Cloning a specific branch
+### Cloning a specific branch
 
 ```
 git clone -b <branch> <remote_repo>
@@ -70,25 +70,25 @@ With Git 1.7.10 and later, add --single-branch to prevent fetching of all branch
 git clone -b morepewpew --single-branch https://github.com/Mith87/Asteroids.git
 ```
 
-## Pushing changes on a branch
+### Pushing changes on a branch
 
 ```
 git push <origin> [name-of-your-branch]
 ```
 
-## See all existing branches
+### See all existing branches
 
 ```
 git branch -a 
 ```
 
-## Delete a branch on GitHub
+### Delete a branch on GitHub
 
 ```
 git push origin :[name-of-your-branch]
 ```
 
-# About Pull Requests
+## About Pull Requests
 
 Pull Requests are commonly used by teams and organizations collaborating using the [Shared Repository Model](https://help.github.com/en/articles/about-pull-requests#article-platform-nav), where everyone shares a single repository and topic branches are used to develop features and isolate changes. Many open source projects on Github use pull requests to manage changes from contributors as they are useful in providing a way to notify project maintainers about changes one has made and in initiating code review and general discussion about a set of changes before being merged into the main branch.
 
