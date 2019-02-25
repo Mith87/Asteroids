@@ -47,10 +47,8 @@ git push
 ### Creating a new branch
 
 ```
-git checkout -b <new-branch-name> [<base-branch-name>]
+git checkout -b <new-branch-name>
 ```
-
-base-branch-name is optional and defaults to master
 
 ### Cloning a specific branch
 
