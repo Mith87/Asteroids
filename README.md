@@ -1,4 +1,4 @@
-#Basic GIT Commands
+# Basic GIT Commands
 
 ## Creating a new working copy
 
