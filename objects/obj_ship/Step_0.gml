@@ -15,5 +15,9 @@ if (keyboard_check(vk_right)) {
 if (keyboard_check_pressed(vk_space)) {
 	var inst = instance_create_layer(x, y, "Instances", obj_bullet);
 	inst.direction = image_angle;
+	var inst = instance_create_layer(x, y, "Instances", obj_bullet);
+	inst.direction = image_angle + 15;
+	var inst = instance_create_layer(x, y, "Instances", obj_bullet);
+	inst.direction = image_angle - 15;
 	audio_play_sound(snd_bullet, 1, false);
 }
