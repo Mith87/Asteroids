@@ -33,7 +33,7 @@ git add <filename>
 ## Commit new changes to master branch
 
 ```
-git commit -M "yourcommentshere"
+git commit -m "yourcommentshere"
 ```
 
 ## Push new changes to master branch
